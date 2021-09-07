@@ -20,12 +20,13 @@ export default function Web3Data(props) {
     const requestAuth = async web3Context => {
         try {
             await web3Context.requestAuth();
-        } catch (e) {
+            } catch (e) {
             console.error(e);
-        }
-    };
-    const requestAccess = useCallback((web3Context) => requestAuth(web3Context), []);
-    
+            }
+        };
+            
+        const requestAccess = useCallback(() => requestAuth(web3Context), []);
+        
     
     return (
         <div>
