@@ -3,7 +3,7 @@
 <div align="center">
   <kbd>
     <img src="https://images.unsplash.com/photo-1590286162167-70fb467846ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    style="height:100px;width:100px;"
+    style="height:10rem;width:12rem;"
      />
   </kbd>
 </div>
