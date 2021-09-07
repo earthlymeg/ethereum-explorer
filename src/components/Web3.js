@@ -17,14 +17,14 @@ export default function Webz3() {
     }
     return (
         <div>
-            Web 3 api
+            
             <div>
                 <button onClick={getBalance}>
                     Get Account Balance
                 </button>
             </div>
             <div>
-                Balance: {balance} ETH
+                <h2>Balance: {balance} ETH </h2>
             </div>
         </div>
     )
