@@ -24,7 +24,7 @@ export default function Webz3() {
                 </button>
             </div>
             <div>
-                <h2>Balance: {balance} ETH </h2>
+                <h2>Your Balance: {balance} ETH </h2>
             </div>
         </div>
     )

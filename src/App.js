@@ -1,6 +1,6 @@
 import './App.css';
 import { useWeb3 } from '@openzeppelin/network/react';
-import Web3Data from './components/Web3Data';
+import RecentBlocks from './components/RecentBlocks';
 import Webz3 from './components/Web3'
 const infuraProjectId = '8037227268fb45909c7a6ca8f7778194';
 function App() {
@@ -11,6 +11,9 @@ function App() {
         <h1>Infura React Dapp</h1>
         {/* <Web3Data title="Web3 Data" web3Context={web3Context} /> */}
       <Webz3/>
+      </div>
+      <div>
+        <RecentBlocks/>
       </div>
     </div>
   );
