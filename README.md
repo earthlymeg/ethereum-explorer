@@ -10,7 +10,7 @@
 
 ## Description
 
-This is an application that explores the Etherum blockchain. 
+This is a decentralizaed application that explores the Etherum blockchain. 
 
 
 ### Built with
