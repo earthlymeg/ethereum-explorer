@@ -1,7 +1,7 @@
 import '../block.css'
 //GiStoneBlock
 import { GiStoneBlock } from 'react-icons/gi'
-function Block() {
+function Block(props) {
 
 
 
@@ -9,13 +9,13 @@ function Block() {
     return (
         <div className="block-container">
             <div>
-                <GiStoneBlock /> 123456
+                <GiStoneBlock /> {props.block.number}
             </div>
             <div>
-            Miner:
+            Miner: {props.block.miner.substring(0,6)}...
             </div>
             <div>
-                Time
+                {props.block.timestamp}
             </div>
         </div>
     )
