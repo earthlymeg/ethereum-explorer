@@ -1,5 +1,8 @@
-import Web3 from 'web3'
+import Web3 from 'web3';
+import Block from './Block';
+import '../recentblocks.css'
 export default function RecentBlocks() {
+
 
     var web3 = new Web3("https://mainnet.infura.io/v3/8037227268fb45909c7a6ca8f7778194");
 
@@ -47,6 +50,12 @@ export default function RecentBlocks() {
         <div>
             
             <h1>Recent Blocks</h1>
+            <div className="container">
+                container
+                <Block/>
+                <Block/>
+                <Block/>
+            </div>
         </div>
     )
 }

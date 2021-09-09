@@ -1,0 +1,11 @@
+
+
+.block-container {
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    justify-content: space-between;
+    width: 90%;
+    height: 7rem;
+    align-items: center;
+}
