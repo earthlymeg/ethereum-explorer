@@ -1,11 +1,18 @@
 
 
 .block-container {
+    /* display: flex;
+    flex-direction: row;
+  
+    
+    width: 90%; */
+    flex: 1;
+
     display: flex;
+    justify-content: center;
     flex-direction: row;
     border: solid black;
     justify-content: space-between;
-    width: 90%;
-    height: 7rem;
-    align-items: center;
+    height: 50%;
+
 }

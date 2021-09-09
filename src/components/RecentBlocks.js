@@ -50,7 +50,7 @@ export default function RecentBlocks() {
   useEffect(() => {
     getRecentBlocks()
       .catch((err) => console.log(err))
-  })
+  }, [])
 
   return (
     <div>

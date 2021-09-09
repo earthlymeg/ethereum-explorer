@@ -12,7 +12,7 @@ export default function Webz3() {
         web3.eth.getBalance(val)
             .then(val => web3.utils.fromWei(val,'ether')
             )
-            .then(val => setBalance(val));
+            .then(val => setBalance(val.substring(0,7)));
 
     }
     return (
