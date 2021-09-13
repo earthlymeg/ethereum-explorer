@@ -16,7 +16,7 @@ This is an application that explores the Etherum blockchain.
 
 - React
 - Infua
-- Network JS
+- web3js
 
 ### Install
 
