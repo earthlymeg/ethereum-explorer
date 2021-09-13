@@ -1,4 +1,5 @@
 import Web3 from 'web3';
+import '../web3.css';
 import { useState } from 'react';
 
 export default function Webz3() {
@@ -19,7 +20,9 @@ export default function Webz3() {
         <div>
             
             <div>
-                <button onClick={getBalance}>
+                <button 
+                className="act-bal-btn"
+                onClick={getBalance}>
                     Get Account Balance
                 </button>
             </div>

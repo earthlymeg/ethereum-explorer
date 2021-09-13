@@ -53,7 +53,7 @@ export default function RecentBlocks() {
   }, [])
 
   return (
-    <div>
+    <div className="recent-blocks">
 
       <h1>Recent Blocks</h1>
       <div className="container">

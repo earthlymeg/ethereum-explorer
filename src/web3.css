@@ -1,0 +1,13 @@
+.act-bal-btn {
+  height: 3rem;
+  width: 14rem;
+  border: none;
+  border-radius: 10px;
+  background: rgb(182,182,182);
+  background: rgb(194,194,194);
+  background: linear-gradient(90deg, rgba(194,194,194,1) 0%, rgba(211,211,211,1) 47%, rgba(222,222,222,1) 100%);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  
+  cursor: pointer;
+  font-size: 1rem;
+}
