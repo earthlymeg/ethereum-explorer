@@ -55,8 +55,8 @@ export default function RecentBlocks() {
   return (
     <div className="recent-blocks">
 
-      <h1>Recent Blocks</h1>
       <div className="container">
+      <h2>Recent Blocks</h2>
 
         {recentBlocks.length > 0 &&
           recentBlocks.map((block) => {
