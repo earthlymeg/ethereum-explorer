@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Infura React Dapp</h1>
+        <h1>Eth Peeper 🐣</h1>
         {/* <Web3Data title="Web3 Data" web3Context={web3Context} /> */}
       <Webz3/>
       </div>
