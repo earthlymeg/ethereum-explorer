@@ -1,4 +1,4 @@
-# Ethereum Explorer
+# Eth Peeper 🐣
 
 <div align="center">
   <kbd>
@@ -10,6 +10,8 @@
 ## Description
 
 This is an application that explores the Etherum blockchain. 
+
+Deployed [here 🐣](https://eth-peeper.web.app/) 
 
 
 ### Built with
